@@ -19,3 +19,46 @@
 </body>
  
 </html>
+
+
+
+<style>
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
+
+body {
+  background-color: #004040;
+  background-repeat: no-repeat;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #5DFC0A;
+  text-align: center;
+  padding: 20px 20px; /*<-- was 14px by 16px for padding*/
+  text-decoration: none;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+</style>
