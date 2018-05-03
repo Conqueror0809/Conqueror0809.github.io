@@ -35,3 +35,25 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+<html>
+<head>
+<script type="text/javascript">
+function show_prompt()
+{
+var name=prompt("Your Name");
+if (name!=null && name!="")
+  {
+  alert("Thanks for clicking " + name + "!");
+  window.top.location.replace("https://conqueror0809.github.io/index.html");
+  }
+}
+</script>
+</head>
+<body>
+<ul>
+<li>
+<input type="button" onclick="show_prompt()" value="Button One" />
+</ul>
+</body>
+</html>
